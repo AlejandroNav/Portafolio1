@@ -25,7 +25,7 @@ const Intro = () => {
             </article>
             <article className="i-right">
                 <div className='i-bg'></div>
-                <img src={alexImg} alt="Fotografia de Alejandro Nava" className='i-img'/>
+                <img src={alexImg} alt="Fotografia de Alejandro Nava" className='i-img' />
             </article>
         </section>
     )
