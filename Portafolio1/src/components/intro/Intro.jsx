@@ -1,5 +1,6 @@
 import React from 'react'
 import './intro.css'
+import alexImg from '../../assets/alejandro.png'
 const Intro = () => {
     return (
         <section className='i'>
@@ -17,15 +18,15 @@ const Intro = () => {
                         </div>
                     </div>
                     <div className='i-desc'>
-                        <p>Soy un ingeniero de software mexicano y especialista en accesibilidad,
-                            me encanta mezclar el arte del diseño con el tecnicismo de la informática
-                            para crear experiencias de usuario cautivadoras y abiertas para todas las personas
-                        </p>
+                        Soy un ingeniero de software mexicano y especialista en accesibilidad,
+                        me encanta mezclar el arte del diseño con el tecnicismo de la informática
                     </div>
                 </div>
             </article>
             <article className="i-right">
-                right</article>
+                <div className='i-bg'></div>
+                <img src={alexImg} alt="Fotografia de Alejandro Nava" className='i-img'/>
+            </article>
         </section>
     )
 }
