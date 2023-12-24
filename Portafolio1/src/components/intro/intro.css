@@ -9,12 +9,12 @@
     align-items: center;
     justify-content: center;
     background-color:#2a2e3a;
-    color: #00ffff;
+    color: #FF9408;
 }
 
 .i-right {
     flex: 2;
-    background-color: #00ffff;
+    background-color: #FF9408;
     position: relative;
     
 }

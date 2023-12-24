@@ -1,6 +1,7 @@
 import React from 'react'
 import './intro.css'
 import alexImg from '../../assets/alejandro.png'
+
 const Intro = () => {
     return (
         <section className='i'>
