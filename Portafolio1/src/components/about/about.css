@@ -1,27 +1,81 @@
-.a{
-    background-color: #B56576;
+.about {
+    background-color: #FF9408;
     height: 100vh;
-    color: #2a2e3a;
+    color: #2A2E3A;
     display: flex;
 }
-.a-card{
+
+/* ----------------Seccion de la imagen---------------- */
+.about-card {
     width: 60%;
-    height: 100vh;
+    height: 80vh;
     border-radius: 30px;
+    position: relative;
+    overflow: hidden;
 }
-.a-left{
-    flex: 1;
+
+.about-left {
+    flex: 4;
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 
-.a-card img{
+.about-card img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.a-right{
-    flex: 1;
+.about-card.about-bg {
+    background-color: #5b5f6a;
+    position: absolute;
+    top: 30px;
+    left: 100px;
+}
+
+/*  ----------------Seccion de la derecha ----------------*/
+.about-right {
+    flex: 5;
+}
+
+.about-title {
+    font-weight: 400;
+    font-size: 2rem;
+    margin: 2rem;
+}
+
+.about-sub {
+    margin: 1rem 2rem;
+}
+
+.about-description {
+    font-weight: 300;
+    margin: 1rem 2rem;
+}
+
+/* ----------------Seccion de los awards ----------------*/
+.about-award {
+    margin: 2rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-award-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+}
+.about-award-texts {
+    width: 60%;
+}
+.about-award-sub {
+    font-weight: 700;
+    color: #2A2E3A;
+    margin-bottom: .6rem;
+}
+.about-award-text {
+    
 }
