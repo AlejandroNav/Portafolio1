@@ -11,6 +11,8 @@
     background-color: #FF9408;
     display: flex;
     align-items: center;
+    position: sticky;
+    z-index: 2;
 }
 .product-circle{
     width: 8px;
@@ -18,4 +20,12 @@
     background-color: #ffdfb4;
     border-radius: 50%;
     margin-left: 6px;
+}
+.product-image {
+    width: 100%;
+
+    transition: all 5s ease-in-out;
+}
+.product:hover .product-image {
+   transform: translateY(-50%);
 }

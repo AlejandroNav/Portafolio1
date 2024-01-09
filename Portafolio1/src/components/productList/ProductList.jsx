@@ -1,6 +1,7 @@
 import React from 'react'
 import './productList.css'
 import Product from '../product/Product'
+import { productos } from '../../data'
 const ProductList = () => {
   return (
     <section className='list'>
@@ -9,12 +10,10 @@ const ProductList = () => {
         <p className="list-description">¿Buscas elevar tu negocio en el mundo digital? Estás en el lugar correcto. Nos especializamos en el desarrollo web personalizado, desde Landing Pages hasta manejo completo del diseño y presencia digital de marca</p>
       </article>
       <div className="list-listings">
-        <Product />
-        <Product />
-        <Product />
-        <Product />
-        <Product />
-        <Product />
+      {productos.map((item) => {
+          console.log(item.img);
+          return <Product key={item.id} img={item.img} link={item.link} />;
+        })}
       </div>
     </section>
   )
