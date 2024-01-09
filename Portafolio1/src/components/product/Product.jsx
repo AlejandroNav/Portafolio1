@@ -3,7 +3,13 @@ import './product.css'
 
 const Product = () => {
   return (
-    <section className='product'>Product</section>
+    <section className='product'>
+      <div className="product-browser">
+        <div className="product-circle"></div>
+        <div className="product-circle"></div>
+        <div className="product-circle"></div>
+      </div>
+    </section>
   )
 }
 

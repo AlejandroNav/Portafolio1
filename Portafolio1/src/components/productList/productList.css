@@ -1,5 +1,24 @@
 .list{
-    height: 100vh;
-    background: #DCDCDD;
-    color:#2A2E3A;
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.list-title{
+    font-size: 50px;
+    font-weight: 600;
+}
+.list-texts{
+    width: 65%;
+}
+
+.list-description{
+    margin: 20px 0px;
+}
+.list-listings{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
 }
