@@ -1,5 +1,6 @@
 import React from 'react'
 import './contact.css'
+import { Icon } from '@iconify/react';
 const Contact = () => {
     return (
         <section className='contact'>
@@ -10,7 +11,9 @@ const Contact = () => {
                         <div className="contact-info">
                             <div className='contact-item'>
                                 <img src="" alt="" />
-                                img
+                                <Icon icon="tabler:phone" />
+                                <Icon icon="line-md:email-opened" />
+                                <Icon icon="mdi:map-marker-outline" />
                             </div>
                         </div>
                     </article>
