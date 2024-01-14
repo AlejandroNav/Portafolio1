@@ -3,7 +3,7 @@ import './contact.css'
 import { Icon } from '@iconify/react';
 const Contact = () => {
 
-    
+
 
 
     return (
@@ -31,6 +31,7 @@ const Contact = () => {
                 <article className='contact-right'>
                     <p className="contact-desc">¡Haz realidad tu visión digital hoy! Transformaremos tus ideas en experiencias impactantes. ¡Eleva tu presencia en línea y alcanza nuevos horizontes! Contáctanos para empezar.</p>
                     <form name="contact" method="POST" data-netlify="true">
+                        <input type="hidden" name="form-name" value="contact" />
                         <input type="text" placeholder='Nombre' name='user_name' />
                         <input type="text" placeholder='Tema' name='user_subject' />
                         <input type="text" placeholder='Correo' name='user_email' />
