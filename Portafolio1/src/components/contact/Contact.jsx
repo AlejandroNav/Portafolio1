@@ -2,25 +2,8 @@ import React, { useRef } from 'react'
 import './contact.css'
 import { Icon } from '@iconify/react';
 const Contact = () => {
-    const formRef = useRef()
 
-    const handleSubmit = async (e) => {
-        e.preventDefault();
-        const form = formRef.current;
-
-        try {
-            await fetch('/', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-                body: new URLSearchParams(new FormData(form)).toString(),
-            });
-            // Handle success, e.g., show a success message or redirect
-            console.log('Form submitted successfully!');
-        } catch (error) {
-            // Handle error, e.g., show an error message
-            console.error('Error submitting the form:', error);
-        }
-    };
+    
 
 
     return (
@@ -47,7 +30,7 @@ const Contact = () => {
                 </article>
                 <article className='contact-right'>
                     <p className="contact-desc">¡Haz realidad tu visión digital hoy! Transformaremos tus ideas en experiencias impactantes. ¡Eleva tu presencia en línea y alcanza nuevos horizontes! Contáctanos para empezar.</p>
-                    <form ref={formRef} onSubmit={handleSubmit} data-netlify="true">
+                    <form name="contact" method="POST" data-netlify="true">
                         <input type="text" placeholder='Nombre' name='user_name' />
                         <input type="text" placeholder='Tema' name='user_subject' />
                         <input type="text" placeholder='Correo' name='user_email' />
