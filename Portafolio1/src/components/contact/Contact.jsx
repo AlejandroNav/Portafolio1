@@ -46,7 +46,7 @@ const Contact = () => {
                     </div>
                 </article>
                 <article className='contact-right'>
-                    <p className="contact-desc">¡Haz realidad tu visión digital hoy! Con nuestro equipo en desarrollo web, transformaremos tus ideas en experiencias impactantes. ¡Eleva tu presencia en línea y alcanza nuevos horizontes! Contáctanos para empezar.</p>
+                    <p className="contact-desc">¡Haz realidad tu visión digital hoy! Transformaremos tus ideas en experiencias impactantes. ¡Eleva tu presencia en línea y alcanza nuevos horizontes! Contáctanos para empezar.</p>
                     <form ref={formRef} onSubmit={handleSubmit} data-netlify="true">
                         <input type="text" placeholder='Nombre' name='user_name' />
                         <input type="text" placeholder='Tema' name='user_subject' />
