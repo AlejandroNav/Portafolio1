@@ -17,4 +17,21 @@
 }
 .contact-left{
     flex: 1;
+    padding-left: 50px;
+}
+
+.contact-title{
+    font-size: 50px;
+    width: 70%;
+}
+.contact-item{
+    display: flex;
+    align-items: center;
+    margin: 25px 0;
+}
+
+.contact-icon{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
 }
