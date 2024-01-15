@@ -3,9 +3,6 @@ import './contact.css'
 import { Icon } from '@iconify/react';
 const Contact = () => {
 
-
-
-
     return (
         <section className='contact'>
             <div className="contact-bg">

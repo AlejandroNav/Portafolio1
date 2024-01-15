@@ -1,7 +1,5 @@
 .about {
-    background-color: #FF9408;
     height: 100vh;
-    color: #2A2E3A;
     display: flex;
 }
 
@@ -29,7 +27,6 @@
 }
 
 .about-card.about-bg {
-    background-color: #5b5f6a;
     position: absolute;
     top: 30px;
     left: 100px;
@@ -73,7 +70,6 @@
 }
 .about-award-sub {
     font-weight: 700;
-    color: #2A2E3A;
     margin-bottom: .6rem;
 }
 .about-award-text {
