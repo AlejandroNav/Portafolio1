@@ -1,8 +1,11 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import './intro.css'
 import alexImg from '../../assets/alejandro.png'
+import { ThemeContext } from '../../context'
 
 const Intro = () => {
+    const theme = useContext(ThemeContext)
+    const darkMode = theme.state.darkMode;
     return (
         <section className='i'>
             <article className="i-left">
