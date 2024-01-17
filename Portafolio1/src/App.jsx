@@ -12,7 +12,7 @@ function App() {
   const theme = useContext(ThemeContext)
   const darkMode = theme.state.darkMode;
   return (
-    <div style={{ backgroundColor: darkMode? '#2a2e3a':'white', color: darkMode? "#ff7129":'#2a2e3a' }}>
+    <div style={{ backgroundColor: darkMode?'white': '#2a2e3a', color: darkMode?'#2a2e3a':"#ff7129" }}>
       <Toogle />
       <Intro />
       <About />

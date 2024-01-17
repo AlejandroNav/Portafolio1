@@ -29,8 +29,8 @@ const Intro = () => {
                     </div>
                 </div>
             </article>
-            <article className="i-right">
-                <div className='i-bg'></div>
+            <article className="i-right" style={{ backgroundColor: darkMode?'#2a2e3a':"#ff7129", color: darkMode?'#2a2e3a' :'white'}} >
+                <div className='i-bg' style={{ backgroundColor: darkMode?'white' :'#2a2e3a', color:darkMode?'#2a2e3a':"#ff7129"}}></div>
                 <img src={alexImg} alt="Fotografia de Alejandro Nava" className='i-img' />
             </article>
         </section>
