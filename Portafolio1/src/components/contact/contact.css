@@ -69,3 +69,41 @@ button:hover{
     background: #ff6519;
     padding: 16px;
 }
+
+@media screen and (max-width: 768px) {
+    .contact{
+        height: 100%;
+    }
+    .contact-wrapper{
+        flex-direction: column;
+        padding: 0px 3%;
+        height: 100%;
+    }
+    .contact-title{
+        font-size: 40px;
+        width: 100%;
+    }
+    .contact-item{
+        margin: 30px 0px;
+    }
+    .contact-desc{
+        display: none;
+    }
+    .form-contact{
+        padding: 10px 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: none;
+    }
+    .form-contact input,textarea{
+        width: 100%;
+        border: none;
+    }
+    .contact-bg{
+        height: 100%;
+    }
+    .contact-right{
+       margin: 20px;
+    }
+}

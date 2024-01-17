@@ -65,13 +65,48 @@
     height: 150px;
     border-radius: 20px;
 }
+
 .about-award-texts {
     width: 60%;
 }
+
 .about-award-sub {
     font-weight: 700;
     margin-bottom: .6rem;
 }
-.about-award-text {
-    
+
+.about-award-text {}
+
+@media screen and (max-width: 768px) {
+
+
+    .about-card img {
+        width: 100%;
+        height: 50%;
+        object-fit: cover;
+    }
+
+    .about {
+        height: 100%;
+        flex-direction: column;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    .about-left {
+        width: 50%;
+        align-self: center;
+    }
+    .about-card{
+        height: 60%;
+    }
+    .about-bg,.about-award-img {
+        display: none;
+    }
+    .about-right{
+        padding: 20px;
+    }
+    .about-award-texts {
+        width:90%;
+    }
 }

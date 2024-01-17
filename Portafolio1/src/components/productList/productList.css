@@ -22,3 +22,17 @@
     justify-content: space-evenly;
     width: 100%;
 }
+
+@media screen and (max-width: 768px) {
+    .list{
+        padding: 10px;
+    }
+    .list-title{
+        font-size: 40px;
+        font-weight: 500;
+    }
+    .list-texts{
+        width: 90%;
+    }
+    
+}
