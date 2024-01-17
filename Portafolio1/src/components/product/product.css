@@ -2,13 +2,13 @@
     height: 30vh;
     margin: 20px 10px;
     width: 25%;
-    border: 2px solid rgba(128, 128, 128, 0.438);
+    border: 3px solid rgba(128, 128, 128, 0.438);
     border-radius: 10px 10px 0px 0px;
     overflow: hidden;
 }
 .product-browser{
     height: 20px;
-    background-color: #FF9408;
+    background-color: #52449d;
     display: flex;
     align-items: center;
     position: sticky;
@@ -17,7 +17,7 @@
 .product-circle{
     width: 8px;
     height: 8px;
-    background-color: #ffdfb4;
+    background-color: #ffffff;
     border-radius: 50%;
     margin-left: 6px;
 }
